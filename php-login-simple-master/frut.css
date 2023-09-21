@@ -1,0 +1,124 @@
+.cabe{
+    background-color: rgb(4, 124, 108);
+}
+#content {
+    height: 2000px; /* altura de la página para que se pueda hacer scroll */
+    padding: 20px;
+  }
+
+  #footer {
+    position: relative;
+    bottom: -50px; /* valor negativo para que el pie de página se mueva mientras haces scroll */
+    height: 200px; /* altura del pie de página */
+    background-color: rgb(4, 124, 108);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+body{
+    background-color: #f4f4f4;
+			background-image: url('https://cdn-0.themonopolitan.com/assets/img/post/monopolitan/fruteri%CC%81as%20y%20verduleri%CC%81as_yaoyasuika.jpg?ezimgfmt=ngcb80/notWebP');
+			background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+}
+h1{
+    color: rgb(246, 246, 246);
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: -20px;
+    margin-top: -50px;
+    font-size: 40px;
+}
+select {
+    height: 50px;
+    font-weight: bold;
+    font-size: 25px;
+
+  }
+  label{
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .contorno-titulo {
+    text-shadow: 4px 4px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px 1px 0  #000;
+  }
+
+
+.tabla {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabla th, .tabla td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.tabla th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.tabla tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla:hover {
+    background-color: #ddd;
+}
+
+.tabla td:hover {
+    background-color: #ddd;
+}
+.one{
+    float: left;
+        margin-right: 30px;
+        margin-left: 40px;
+        margin-top: 90px;
+        border-top: 10px solid black;
+        border-bottom: 10px solid rgb(0, 0, 0);
+        border-right: 10px solid black;
+        border-left: 10px solid black;
+}
+.two{
+    float: left;
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 90px;
+        border-top: 10px solid black;
+        border-bottom: 10px solid rgb(0, 0, 0);
+        border-right: 10px solid black;
+        border-left: 10px solid black;
+}
+.three{
+    float: left;
+        margin-right: 30px;
+        margin-left: 20px;
+        margin-top: 90px;
+        border-top: 10px solid rgb(0, 0, 0);
+        border-bottom: 10px solid rgb(0, 0, 0);
+        border-right: 10px solid black;
+        border-left: 10px solid black;
+}
+.des{
+    margin-bottom: 10px;
+}
+.log{
+    margin-top: -90px;
+    width: 150px;
+    height: 120px;
+}
+.prilo{
+    margin-top: -50px;
+    margin-left: -20px;
+    margin-bottom: -50px;
+    width: 150px;
+    height: 120px;
+}
+
+    
+  

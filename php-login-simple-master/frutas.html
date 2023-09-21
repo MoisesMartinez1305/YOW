@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="frut.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+<style>
+    body{
+        margin: 0;
+    }
+    .swiper {
+  width: 100%;
+  height: 300px;
+}
+img{
+    height: 267.22px;
+    width: auto;
+    object-fit:cover;
+    display: block;
+    margin: auto;
+}
+.menu {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .menu-btn {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .menu-content {
+      display: none;
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      min-width: 160px;
+      z-index: 1;
+    }
+    
+    .menu:hover .menu-content {
+      display: block;
+    }
+    
+    .menu-content a {
+      display: block;
+      padding: 10px 20px;
+      color: #333;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    
+    .menu-content a:hover {
+      background-color: #f2f2f2;
+    }
+
+</style>
+    <title>FRUTAS</title>
+</head>
+<body>
+  <a href="login.php">CERRAR SESIÓN</a>
+  <figure>
+    <img src="imag/logo.png" class="prilo" >
+  </figure>
+  <h1 class="contorno-titulo">"FRUVER"</h1>
+  <div id="content">
+  <header class="cabe">
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="https://imgs.search.brave.com/ST4k6oTyGtOWSzxQYnfaLEHRuLyRlCBDOAPi9F2zLIU/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5s/NVpOS0h4eWdwOEFI/Q0piVndsVWFBSGFF/OCZwaWQ9QXBp" alt=""></div>
+      <div class="swiper-slide"><img src="https://imgs.search.brave.com/c1RO1z4QKTC2cI94HlvMNp0h3HQE14Afp_1BuVd2Mx8/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC55/VHRHTjY1RXh6T2Ji/emt1Sm93T3V3SGFF/OCZwaWQ9QXBp" alt=""></div>
+      <div class="swiper-slide"><img src="https://imgs.search.brave.com/HGoFmXT5ebXeIvUk2xdH3cbRvz6FV9Y7oYfln-7p0v0/rs:fit:913:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC50/Vk1oUDBXTk0wMGpp/LUIybDZlX01nSGFE/MiZwaWQ9QXBp" alt=""></div>
+      <div class="swiper-slide"><img src="https://imgs.search.brave.com/gkFrSg8DfugqodB_kJ7xNiVvOncD4bencYaSF35XS_4/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5p/TVRqS0dRdjhVQ296/TTZjWVVXM2NRSGFF/OCZwaWQ9QXBp" alt=""></div>
+      <div class="swiper-slide"><img src="https://imgs.search.brave.com/VtykkefDRSmaQ5Z5raq3AAYDyFFHd0X12ivVoss7AbY/rs:fit:610:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC45/S0xQSVgtZENacVN6/M3R0M1htQnhBSGFG/dyZwaWQ9QXBp" alt=""></div>
+      <div class="swiper-slide"><img src="https://imgs.search.brave.com/kvZSuWEn3syBk2VQZt5jXwJ9oW0JTCjQYg71NMGl3nQ/rs:fit:1024:680:1/g:ce/aHR0cHM6Ly9idWVu/cHJvdmVjaG8uaG4v/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MTAvTGVjaHVnYS0y/LmpwZw" alt=""></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+</script>
+</header>
+<div class="menu">
+  <button class="menu-btn">Menú</button>
+  <ul class="menu-content">
+    <li><a href="A/alta.html">Altas de productos</a></li>
+    <li><a href="BA/baja.html">Bajas de productos</a>
+    <li><a href="BU/bproduc.html">Búsqueda de productos</a>
+    <li><a href="BUE/bus.html">Búsqueda Específica</a>
+    <li><a href="C/modi.html">Modificar productos</a>
+    <li><a href="mostrarTabla.php">Mostrar productos </a>
+  </ul>
+</div>
+<script>
+  var menuBtn = document.querySelector('.menu-btn');
+  var menuContent = document.querySelector('.menu-content');
+
+  menuBtn.addEventListener('click', function() {
+    menuContent.style.display = (menuContent.style.display === 'block') ? 'none' : 'block';
+  });
+</script>
+
+
+<figure>
+<img src="imag/fresa.jpg" alt="Contamos con fresas con crema al 2 x 1" class="one">
+</figure>
+<img src="imag/mango.jpg" alt="También tenemos mangos con chile, riquísimos" class="two">
+<img src="imag/nopal.png" alt="Te ahorramos el trabajo de pelar los nopales" class="three">
+</div>
+
+<div id="footer">
+  <figure>
+    <img src="imag/logo.png" class="log">
+  </figure>
+  <p>Teléfono de contacto: 4141232177</p>
+</div>
+</body>
+</html>

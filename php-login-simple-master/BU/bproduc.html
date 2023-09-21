@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bProductos</title>
+    <style>
+        body {
+          background-color: #87ccc1;
+          margin: 0;
+          padding: 0;
+        }
+        h1 {
+          text-align: center;
+          width: 50%;
+          margin: auto;
+          margin-top: 30px;
+        }
+        table {
+          border: 3px solid #cca633;
+          padding: 20px 50px;
+          margin-top: 20px;
+          border-radius: 5px;
+          background-color: #edf797;
+        }
+      </style>
+</head>
+<body>
+    <h1> Busqueda</h1>
+    <form action="bpro.php" method="post">
+        <h2>
+            <table width="300" cellspacing="2" cellpadding="2" border="4">
+            <tr>
+                <td><label > Nombre de la fruta</label>
+                <input type="text" name= "nombre" ></td>
+            </tr>
+            <tr>
+                <td><label > Descripcion juego</label>
+                <input type="text" name= "descripcion" size="50" ></td>
+            </tr>
+            <tr>
+                <td><label >Precio Compra</label>
+                <input type="text" name= "tipo" ></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <button type = "su bmit" >buscar</button>
+                    <button type = "reset" >limpiar</button></td>
+            </tr>
+
+            </table>
+        </h2>
+    </form>
+
+</body>
+</html>
